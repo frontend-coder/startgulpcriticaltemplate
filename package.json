@@ -1,0 +1,65 @@
+{
+  "name": "startgulpcriticaltemplate",
+  "version": "1.0.0",
+  "description": "Базовый стартовый шаблон для выполнения верстки под заказ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "eslint": "eslint ./app/libs/common.js",
+    "eslint:fix": "eslint ./app/**/*.js --fix",
+    "stylelint": "stylelint ./app/scss/*.scss",
+    "stylelint:fix": "stylelint ./app/scss/*.scss --fix",
+    "stylelint:cache": "stylelint --cache ./app/**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontend-coder/startgulpcriticaltemplate.git"
+  },
+  "author": "Игорь Васильченко",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontend-coder/startgulpcriticaltemplate/issues"
+  },
+  "homepage": "https://github.com/frontend-coder/startgulpcriticaltemplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "critical": "^3.0.1",
+    "del": "^6.0.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-webp": "^4.0.1",
+    "prettier": "^2.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "dependencies": {
+    "browserslist": "^4.16.6",
+    "caniuse-lite": "^1.0.30001228"
+  }
+}
